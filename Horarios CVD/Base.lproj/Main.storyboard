@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ciclo View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="Ciclo View Controller" customClass="ViewController" customModule="Horarios_CVD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="GHi-K3-DUP">
+                                <rect key="frame" x="0.0" y="20" width="480" height="300"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtP-hX-OiN">
+                                <rect key="frame" x="168" y="48" width="143" height="52"/>
+                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Fib-ck-M1a"/>
+                                    <constraint firstAttribute="width" constant="143" id="qv0-WZ-T9P"/>
+                                </constraints>
+                                <state key="normal" title="Segundo Ciclo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8k-pI-sy8">
+                                <rect key="frame" x="324" y="48" width="143" height="52"/>
+                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Enseñanza Media">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EyO-0k-e4E">
+                                <rect key="frame" x="12" y="48" width="143" height="52"/>
+                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Primer Ciclo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="GHi-K3-DUP" secondAttribute="trailing" constant="-20" id="0Jx-od-74o"/>
+                            <constraint firstItem="GHi-K3-DUP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="16D-sk-aa4"/>
+                            <constraint firstItem="B8k-pI-sy8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="9ln-88-snm"/>
+                            <constraint firstItem="B8k-pI-sy8" firstAttribute="width" secondItem="vtP-hX-OiN" secondAttribute="width" id="AfD-D2-ly7"/>
+                            <constraint firstItem="B8k-pI-sy8" firstAttribute="leading" secondItem="vtP-hX-OiN" secondAttribute="trailing" constant="13" id="C6F-RA-6YX"/>
+                            <constraint firstItem="EyO-0k-e4E" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="Goo-ul-Ip4"/>
+                            <constraint firstItem="EyO-0k-e4E" firstAttribute="height" secondItem="vtP-hX-OiN" secondAttribute="height" id="KLf-DG-Bri"/>
+                            <constraint firstItem="vtP-hX-OiN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nav-fG-D3i"/>
+                            <constraint firstItem="vtP-hX-OiN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="VSF-Vf-kFa"/>
+                            <constraint firstItem="B8k-pI-sy8" firstAttribute="height" secondItem="vtP-hX-OiN" secondAttribute="height" id="dLI-7C-MTw"/>
+                            <constraint firstItem="GHi-K3-DUP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hfD-CH-HXD"/>
+                            <constraint firstItem="vtP-hX-OiN" firstAttribute="leading" secondItem="EyO-0k-e4E" secondAttribute="trailing" constant="13" id="kyE-UX-7M4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GHi-K3-DUP" secondAttribute="bottom" id="lyJ-4I-DWv"/>
+                            <constraint firstItem="EyO-0k-e4E" firstAttribute="width" secondItem="vtP-hX-OiN" secondAttribute="width" id="mzC-SG-pNw"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="248" y="305"/>
+        </scene>
+        <!--Curso View Controller-->
+        <scene sceneID="FoU-V9-ND5">
+            <objects>
+                <viewController id="9Me-f8-oeY" userLabel="Curso View Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3yg-rB-uox"/>
+                        <viewControllerLayoutGuide type="bottom" id="vRP-8L-UaU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KHj-09-KQK">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="qgy-l1-DKR">
+                                <rect key="frame" x="0.0" y="20" width="480" height="300"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJt-lQ-HFh">
+                                <rect key="frame" x="42" y="52" width="87" height="54"/>
+                                <state key="normal" title="1º Básico"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mx-e7-LXY">
+                                <rect key="frame" x="255" y="52" width="87" height="54"/>
+                                <state key="normal" title="3º Básico"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wO-lx-quy">
+                                <rect key="frame" x="373" y="52" width="87" height="54"/>
+                                <state key="normal" title="4º Básico"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDK-ch-4Kt">
+                                <rect key="frame" x="153" y="52" width="87" height="54"/>
+                                <state key="normal" title="2º Básico"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qgy-l1-DKR" firstAttribute="top" secondItem="3yg-rB-uox" secondAttribute="bottom" id="0FM-UY-nan"/>
+                            <constraint firstItem="vRP-8L-UaU" firstAttribute="top" secondItem="qgy-l1-DKR" secondAttribute="bottom" id="IDp-Z2-Xvi"/>
+                            <constraint firstItem="qgy-l1-DKR" firstAttribute="leading" secondItem="KHj-09-KQK" secondAttribute="leadingMargin" constant="-20" id="jph-YW-LaN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qgy-l1-DKR" secondAttribute="trailing" constant="-20" id="k0i-Xg-Spg"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mSI-ct-S4g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="-95"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VbV-ew-69x">
+            <objects>
+                <viewController id="8M7-Mn-8gk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6xg-eC-74p"/>
+                        <viewControllerLayoutGuide type="bottom" id="Utq-P5-qBd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0hW-Ku-ohk">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DDl-Bh-XLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="705"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="f5c-Dn-EII">
+            <objects>
+                <viewController id="7fU-9i-Ddy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P3D-sx-kAf"/>
+                        <viewControllerLayoutGuide type="bottom" id="23v-I9-yhM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EZV-bS-fWq">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UWm-sg-Uc3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1408" y="305"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Aki-rf-Wy5">
+            <objects>
+                <viewController id="cQh-Bf-C0C" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vf4-RY-9PZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="6B5-Lb-VaT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dV5-xD-vBm">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EqI-D2-EER" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="309"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="2560" height="1920"/>
+    </resources>
+</document>
