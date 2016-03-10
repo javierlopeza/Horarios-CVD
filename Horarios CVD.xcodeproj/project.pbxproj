@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3B0641891C92392900CD552E /* Horario_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0641881C92392900CD552E /* Horario_ViewController.swift */; };
-		3B06418B1C923A6000CD552E /* PrimerCiclo_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06418A1C923A6000CD552E /* PrimerCiclo_ViewController.swift */; };
-		3B06418E1C923A9900CD552E /* SegundoCiclo_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06418D1C923A9900CD552E /* SegundoCiclo_ViewController.swift */; };
 		3B0641901C923AAE00CD552E /* Media_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06418F1C923AAE00CD552E /* Media_ViewController.swift */; };
 		3B0641921C923AC300CD552E /* CincoLetras_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0641911C923AC300CD552E /* CincoLetras_ViewController.swift */; };
 		3B0641941C923AF100CD552E /* CuatroLetras_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0641931C923AF100CD552E /* CuatroLetras_ViewController.swift */; };
+		3B0641971C923C4200CD552E /* PrimerCiclo_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0641951C923C4200CD552E /* PrimerCiclo_ViewController.swift */; };
+		3B0641981C923C4200CD552E /* SegundoCiclo_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0641961C923C4200CD552E /* SegundoCiclo_ViewController.swift */; };
 		3B63BAEF1C91F80200132BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B63BAEE1C91F80200132BC1 /* AppDelegate.swift */; };
 		3B63BAF11C91F80200132BC1 /* Ciclos_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B63BAF01C91F80200132BC1 /* Ciclos_ViewController.swift */; };
 		3B63BAF41C91F80200132BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B63BAF21C91F80200132BC1 /* Main.storyboard */; };
@@ -22,11 +22,11 @@
 
 /* Begin PBXFileReference section */
 		3B0641881C92392900CD552E /* Horario_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Horario_ViewController.swift; path = ../Horario_ViewController.swift; sourceTree = "<group>"; };
-		3B06418A1C923A6000CD552E /* PrimerCiclo_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrimerCiclo_ViewController.swift; path = ../PrimerCiclo_ViewController.swift; sourceTree = "<group>"; };
-		3B06418D1C923A9900CD552E /* SegundoCiclo_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SegundoCiclo_ViewController.swift; path = ../SegundoCiclo_ViewController.swift; sourceTree = "<group>"; };
 		3B06418F1C923AAE00CD552E /* Media_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media_ViewController.swift; sourceTree = "<group>"; };
 		3B0641911C923AC300CD552E /* CincoLetras_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CincoLetras_ViewController.swift; sourceTree = "<group>"; };
 		3B0641931C923AF100CD552E /* CuatroLetras_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuatroLetras_ViewController.swift; sourceTree = "<group>"; };
+		3B0641951C923C4200CD552E /* PrimerCiclo_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimerCiclo_ViewController.swift; sourceTree = "<group>"; };
+		3B0641961C923C4200CD552E /* SegundoCiclo_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegundoCiclo_ViewController.swift; sourceTree = "<group>"; };
 		3B63BAEB1C91F80200132BC1 /* Horarios CVD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Horarios CVD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B63BAEE1C91F80200132BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B63BAF01C91F80200132BC1 /* Ciclos_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ciclos_ViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				3B63BAF01C91F80200132BC1 /* Ciclos_ViewController.swift */,
-				3B06418A1C923A6000CD552E /* PrimerCiclo_ViewController.swift */,
-				3B06418D1C923A9900CD552E /* SegundoCiclo_ViewController.swift */,
+				3B0641951C923C4200CD552E /* PrimerCiclo_ViewController.swift */,
+				3B0641961C923C4200CD552E /* SegundoCiclo_ViewController.swift */,
 				3B06418F1C923AAE00CD552E /* Media_ViewController.swift */,
 				3B0641911C923AC300CD552E /* CincoLetras_ViewController.swift */,
 				3B0641931C923AF100CD552E /* CuatroLetras_ViewController.swift */,
@@ -161,14 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B06418B1C923A6000CD552E /* PrimerCiclo_ViewController.swift in Sources */,
 				3B0641941C923AF100CD552E /* CuatroLetras_ViewController.swift in Sources */,
+				3B0641971C923C4200CD552E /* PrimerCiclo_ViewController.swift in Sources */,
 				3B0641901C923AAE00CD552E /* Media_ViewController.swift in Sources */,
+				3B0641981C923C4200CD552E /* SegundoCiclo_ViewController.swift in Sources */,
 				3B63BAF11C91F80200132BC1 /* Ciclos_ViewController.swift in Sources */,
 				3B0641921C923AC300CD552E /* CincoLetras_ViewController.swift in Sources */,
 				3B63BAEF1C91F80200132BC1 /* AppDelegate.swift in Sources */,
 				3B0641891C92392900CD552E /* Horario_ViewController.swift in Sources */,
-				3B06418E1C923A9900CD552E /* SegundoCiclo_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
