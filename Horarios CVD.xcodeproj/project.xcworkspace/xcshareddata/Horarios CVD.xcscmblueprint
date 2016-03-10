@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "609A3E891FB0DC92446613757F1C6B7719F80E24",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9BB99B477F332DC8D7BB35B5CF0A78C3D7A8BF36" : 0,
+    "609A3E891FB0DC92446613757F1C6B7719F80E24" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "74C6037E-27CB-470A-A6BE-0A96CB291FEB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9BB99B477F332DC8D7BB35B5CF0A78C3D7A8BF36" : "",
+    "609A3E891FB0DC92446613757F1C6B7719F80E24" : "Horarios%20CVD\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Horarios CVD",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Horarios CVD.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/javierlopeza\/Horarios-CVD.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "609A3E891FB0DC92446613757F1C6B7719F80E24"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/javierlopeza\/EscalaDeNotas.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9BB99B477F332DC8D7BB35B5CF0A78C3D7A8BF36"
+    }
+  ]
+}

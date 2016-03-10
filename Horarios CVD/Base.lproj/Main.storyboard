@@ -9,7 +9,7 @@
         <!--Ciclo View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Ciclo View Controller" customClass="ViewController" customModule="Horarios_CVD" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Ciclo View Controller" customClass="Ciclos_ViewController" customModule="Horarios_CVD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -84,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="200" y="279"/>
         </scene>
-        <!--Curso View Controller-->
+        <!--Primer Ciclo View Controller-->
         <scene sceneID="FoU-V9-ND5">
             <objects>
-                <viewController id="9Me-f8-oeY" userLabel="Curso View Controller" sceneMemberID="viewController">
+                <viewController id="9Me-f8-oeY" userLabel="Primer Ciclo View Controller" customClass="PrimerCiclo_ViewController" customModule="Horarios_CVD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3yg-rB-uox"/>
                         <viewControllerLayoutGuide type="bottom" id="vRP-8L-UaU"/>
@@ -213,10 +213,10 @@
             </objects>
             <point key="canvasLocation" x="830" y="-139"/>
         </scene>
-        <!--Curso View Controller-->
+        <!--Segundo Ciclo View Controller-->
         <scene sceneID="A5r-Ha-x6h">
             <objects>
-                <viewController id="eQ0-RZ-I7A" userLabel="Curso View Controller" sceneMemberID="viewController">
+                <viewController id="eQ0-RZ-I7A" userLabel="Segundo Ciclo View Controller" customClass="SegundoCiclo_ViewController" customModule="Horarios_CVD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pus-qG-H9T"/>
                         <viewControllerLayoutGuide type="bottom" id="5mz-lJ-yUv"/>
@@ -342,10 +342,10 @@
             </objects>
             <point key="canvasLocation" x="830" y="305"/>
         </scene>
-        <!--Curso View Controller-->
+        <!--Media View Controller-->
         <scene sceneID="Zrj-Jx-vJa">
             <objects>
-                <viewController id="cC6-Uq-2mA" userLabel="Curso View Controller" sceneMemberID="viewController">
+                <viewController id="cC6-Uq-2mA" userLabel="Media View Controller" customClass="Media_ViewController" customModule="Horarios_CVD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5CO-MX-3oN"/>
                         <viewControllerLayoutGuide type="bottom" id="TFe-GN-zbh"/>
@@ -471,10 +471,10 @@
             </objects>
             <point key="canvasLocation" x="830" y="811"/>
         </scene>
-        <!--View Controller-->
+        <!--Horario View Controller-->
         <scene sceneID="aLb-GN-esB">
             <objects>
-                <viewController id="0Cg-YO-fOI" sceneMemberID="viewController">
+                <viewController id="0Cg-YO-fOI" userLabel="Horario View Controller" customClass="Horario_ViewController" customModule="Horarios_CVD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ePB-oh-yk6"/>
                         <viewControllerLayoutGuide type="bottom" id="xIw-Wq-3cN"/>
@@ -493,11 +493,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKA-35-e1j">
-                                <rect key="frame" x="217" y="212" width="46" height="30"/>
+                                <rect key="frame" x="225" y="212" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="PHr-uY-21q"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <state key="normal" title="‹"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="HlS-XY-9uB"/>
                                 </connections>
@@ -519,10 +520,10 @@
             </objects>
             <point key="canvasLocation" x="2128" y="305"/>
         </scene>
-        <!--Curso View Controller-->
+        <!--5 Letras View Controller-->
         <scene sceneID="PDK-d4-b1L">
             <objects>
-                <viewController id="zx6-bi-9Wj" userLabel="Curso View Controller" sceneMemberID="viewController">
+                <viewController id="zx6-bi-9Wj" userLabel="5 Letras View Controller" customClass="CincoLetras_ViewController" customModule="Horarios_CVD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bDo-zg-DYC"/>
                         <viewControllerLayoutGuide type="bottom" id="VOV-7u-ijw"/>
@@ -645,10 +646,10 @@
             </objects>
             <point key="canvasLocation" x="1452" y="111"/>
         </scene>
-        <!--Curso View Controller-->
+        <!--4 Letras View Controller-->
         <scene sceneID="bzA-Sp-F5O">
             <objects>
-                <viewController id="oto-fh-KLq" userLabel="Curso View Controller" sceneMemberID="viewController">
+                <viewController id="oto-fh-KLq" userLabel="4 Letras View Controller" customClass="CuatroLetras_ViewController" customModule="Horarios_CVD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yzn-1z-1nY"/>
                         <viewControllerLayoutGuide type="bottom" id="xzi-v2-Sq3"/>
@@ -781,7 +782,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="HlS-XY-9uB"/>
         <segue reference="zOU-kb-cpL"/>
-        <segue reference="akC-g5-DGI"/>
-        <segue reference="Cay-fp-5t8"/>
+        <segue reference="WEc-z0-UDb"/>
+        <segue reference="yQ9-KJ-y3n"/>
     </inferredMetricsTieBreakers>
 </document>
