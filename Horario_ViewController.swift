@@ -10,8 +10,19 @@ import Foundation
 import UIKit
 
 class Horario_ViewController: UIViewController {
+    
+    var receivedString = ""
+    
+    @IBOutlet var HorarioImageView: UIImageView!
+    
+    
     override func viewDidLoad() {
-        <#code#>
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        let tosendString = receivedString
+        
+        HorarioImageView.image = UIImage(named: tosendString)
     }
     
 }
