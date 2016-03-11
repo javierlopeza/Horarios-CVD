@@ -15,14 +15,28 @@ class Horario_ViewController: UIViewController {
     
     @IBOutlet var HorarioImageView: UIImageView!
     
+    @IBOutlet var BackButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let tapGestureRecognizer = UITapGestureRecognizer(target:self, action:Selector("imageTapped:"))
+        HorarioImageView.userInteractionEnabled = true
+        HorarioImageView.addGestureRecognizer(tapGestureRecognizer)
         
         let tosendString = receivedString
         
         HorarioImageView.image = UIImage(named: tosendString)
     }
     
+    func imageTapped(img: AnyObject) {
+        if BackButton.hidden == true {
+            BackButton.hidden = false
+        }
+        else {
+            BackButton.hidden = true
+        }
+        
+        
+    }
 }

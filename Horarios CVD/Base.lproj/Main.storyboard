@@ -487,12 +487,16 @@
                                 <rect key="frame" x="0.0" y="20" width="480" height="300"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKA-35-e1j">
-                                <rect key="frame" x="225" y="212" width="30" height="30"/>
+                                <rect key="frame" x="20" y="255" width="50" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="PHr-uY-21q"/>
+                                    <constraint firstAttribute="height" constant="45" id="HO8-zS-sq9"/>
+                                    <constraint firstAttribute="width" constant="50" id="Z2e-AC-xnl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
-                                <state key="normal" title="‹"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <state key="normal" title="‹">
+                                    <color key="titleColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="HlS-XY-9uB"/>
                                 </connections>
@@ -501,16 +505,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="o8F-Yk-dPk" secondAttribute="trailing" constant="-20" id="2pg-hL-QUN"/>
-                            <constraint firstItem="AKA-35-e1j" firstAttribute="centerX" secondItem="xNA-1m-b9N" secondAttribute="centerX" id="Jc6-Da-zjw"/>
+                            <constraint firstItem="AKA-35-e1j" firstAttribute="leading" secondItem="xNA-1m-b9N" secondAttribute="leadingMargin" id="DN3-gT-Ds4"/>
                             <constraint firstItem="o8F-Yk-dPk" firstAttribute="top" secondItem="ePB-oh-yk6" secondAttribute="bottom" id="Pgb-Ac-73E"/>
                             <constraint firstItem="o8F-Yk-dPk" firstAttribute="leading" secondItem="xNA-1m-b9N" secondAttribute="leadingMargin" constant="-20" id="dlq-ms-Ha5"/>
                             <constraint firstItem="xIw-Wq-3cN" firstAttribute="top" secondItem="o8F-Yk-dPk" secondAttribute="bottom" id="lud-95-ZPm"/>
-                            <constraint firstItem="xIw-Wq-3cN" firstAttribute="top" secondItem="AKA-35-e1j" secondAttribute="bottom" constant="78" id="yDH-mH-xmb"/>
+                            <constraint firstItem="xIw-Wq-3cN" firstAttribute="top" secondItem="AKA-35-e1j" secondAttribute="bottom" constant="20" id="mTT-0P-0WR"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="BackButton" destination="AKA-35-e1j" id="5GL-UO-HSh"/>
                         <outlet property="HorarioImageView" destination="o8F-Yk-dPk" id="Og0-vn-YIF"/>
                     </connections>
                 </viewController>
@@ -604,13 +609,13 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9E-Jw-4P8">
                                 <rect key="frame" x="386.5" y="50" width="87" height="54"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="X4B-xK-fqn"/>
                                     <constraint firstAttribute="width" constant="87" id="zPM-Rb-wIm"/>
                                 </constraints>
                                 <state key="normal" title="E">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="0Cg-YO-fOI" kind="show" identifier="E" id="YL2-li-CYl"/>
@@ -779,8 +784,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="HlS-XY-9uB"/>
-        <segue reference="zOU-kb-cpL"/>
-        <segue reference="WEc-z0-UDb"/>
+        <segue reference="wwX-Kb-kaV"/>
         <segue reference="yQ9-KJ-y3n"/>
+        <segue reference="WEc-z0-UDb"/>
     </inferredMetricsTieBreakers>
 </document>
