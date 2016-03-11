@@ -10,9 +10,14 @@ import UIKit
 
 class Ciclos_ViewController: UIViewController {
 
+    @IBOutlet var BGImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        BGImage.image = UIImage(named: "\(Int(arc4random_uniform(3) + 1))")
+        
     }
 
 }

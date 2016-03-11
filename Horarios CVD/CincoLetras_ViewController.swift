@@ -13,9 +13,14 @@ class CincoLetras_ViewController: UIViewController {
     
     var receivedString = ""
     
+    @IBOutlet var BGImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        BGImage.image = UIImage(named: "\(Int(arc4random_uniform(3) + 1))")
+        
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

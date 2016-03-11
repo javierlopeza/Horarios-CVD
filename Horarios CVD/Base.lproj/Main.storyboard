@@ -79,6 +79,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="BGImage" destination="GHi-K3-DUP" id="uRN-cw-f7s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -208,6 +211,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="BGImage" destination="qgy-l1-DKR" id="9E7-Fy-DDW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mSI-ct-S4g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -337,6 +343,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="BGImage" destination="bRs-ha-117" id="xxh-8c-ctZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezp-og-2Fp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -466,6 +475,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="BGImage" destination="xXs-Zk-m1d" id="vPe-WZ-9V5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="250-Ck-Oux" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -644,6 +656,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="BGImage" destination="dsx-uQ-lth" id="LEj-i8-NAG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Vm-Vc-YY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -773,6 +788,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="BGImage" destination="lSB-z7-8qL" id="zt1-CQ-V8U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eWf-yF-Lx8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -783,9 +801,9 @@
         <image name="1" width="2560" height="1920"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HlS-XY-9uB"/>
-        <segue reference="wwX-Kb-kaV"/>
-        <segue reference="yQ9-KJ-y3n"/>
+        <segue reference="pQJ-I9-weA"/>
         <segue reference="WEc-z0-UDb"/>
+        <segue reference="yQ9-KJ-y3n"/>
+        <segue reference="zOU-kb-cpL"/>
     </inferredMetricsTieBreakers>
 </document>
