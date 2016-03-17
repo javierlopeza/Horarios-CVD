@@ -23,7 +23,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtP-hX-OiN">
                                 <rect key="frame" x="168" y="48" width="143" height="52"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686274509803" green="0.5490196078431373" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="Fib-ck-M1a"/>
                                     <constraint firstAttribute="width" constant="143" id="qv0-WZ-T9P"/>
@@ -38,7 +38,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8k-pI-sy8">
                                 <rect key="frame" x="324" y="48" width="143" height="52"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686274509803" green="0.5490196078431373" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Enseñanza Media">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -49,7 +49,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EyO-0k-e4E">
                                 <rect key="frame" x="12" y="48" width="143" height="52"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686274509803" green="0.5490196078431373" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Primer Ciclo">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -58,10 +58,11 @@
                                     <segue destination="9Me-f8-oeY" kind="show" id="BJf-ws-f1C"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQS-BM-Skb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQS-BM-Skb">
                                 <rect key="frame" x="389" y="270" width="71" height="30"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="Descargar">
-                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -116,7 +117,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJt-lQ-HFh">
                                 <rect key="frame" x="24" y="50" width="87" height="54"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686270000001" green="0.54901960780000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="AtH-Rs-MZp"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="B8H-mh-urO"/>
@@ -132,7 +133,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wO-lx-quy">
                                 <rect key="frame" x="369" y="50" width="87" height="54"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686270000001" green="0.54901960780000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="87" id="RiX-XF-pqB"/>
                                     <constraint firstAttribute="height" constant="54" id="V0J-KQ-WOC"/>
@@ -152,8 +153,10 @@
                                     <constraint firstAttribute="height" constant="30" id="oev-LQ-2fT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="‹">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="MT9-sY-g1S"/>
@@ -164,7 +167,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDK-ch-4Kt">
                                         <rect key="frame" x="0.0" y="0.0" width="87" height="54"/>
-                                        <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.039215686270000001" green="0.54901960780000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="Bxu-0R-CLo"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="Ot8-g1-g3k"/>
@@ -180,7 +183,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mx-e7-LXY">
                                         <rect key="frame" x="115" y="0.0" width="87" height="54"/>
-                                        <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.039215686270000001" green="0.54901960780000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="31m-F2-fM2"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="iKj-pP-C9O"/>
@@ -205,9 +208,10 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VK2-aG-O9U">
-                                <rect key="frame" x="385" y="270" width="71" height="30"/>
+                                <rect key="frame" x="389" y="270" width="71" height="30"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="Descargar">
-                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -222,15 +226,15 @@
                             <constraint firstItem="TeM-wK-KrQ" firstAttribute="top" secondItem="3yg-rB-uox" secondAttribute="bottom" constant="30" id="3pr-oq-A3I"/>
                             <constraint firstItem="TeM-wK-KrQ" firstAttribute="centerX" secondItem="qgy-l1-DKR" secondAttribute="centerX" id="6ui-5Y-vfq"/>
                             <constraint firstItem="qgy-l1-DKR" firstAttribute="top" secondItem="3yg-rB-uox" secondAttribute="bottom" id="9md-Mp-lAF"/>
+                            <constraint firstItem="VK2-aG-O9U" firstAttribute="top" secondItem="WdO-vX-N42" secondAttribute="top" id="AkT-VM-Ffy"/>
                             <constraint firstItem="xJt-lQ-HFh" firstAttribute="top" secondItem="3yg-rB-uox" secondAttribute="bottom" constant="30" id="CWI-Lh-sJg"/>
                             <constraint firstItem="3wO-lx-quy" firstAttribute="top" secondItem="3yg-rB-uox" secondAttribute="bottom" constant="30" id="SVe-yY-ylg"/>
                             <constraint firstItem="qgy-l1-DKR" firstAttribute="leading" secondItem="KHj-09-KQK" secondAttribute="leadingMargin" constant="-20" id="dox-0j-D93"/>
-                            <constraint firstItem="VK2-aG-O9U" firstAttribute="trailing" secondItem="3wO-lx-quy" secondAttribute="trailing" id="gaN-sD-4HK"/>
                             <constraint firstAttribute="bottom" secondItem="WdO-vX-N42" secondAttribute="bottom" constant="20" symbolic="YES" id="ha3-ws-TEJ"/>
-                            <constraint firstItem="VK2-aG-O9U" firstAttribute="top" secondItem="WdO-vX-N42" secondAttribute="top" id="j5s-rY-Ne3"/>
                             <constraint firstItem="vRP-8L-UaU" firstAttribute="top" secondItem="qgy-l1-DKR" secondAttribute="bottom" id="jR1-Df-OEv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qgy-l1-DKR" secondAttribute="trailing" constant="-20" id="kPe-m6-MWl"/>
                             <constraint firstItem="TeM-wK-KrQ" firstAttribute="leading" secondItem="xJt-lQ-HFh" secondAttribute="trailing" constant="28" id="qTX-Gg-cpt"/>
+                            <constraint firstItem="VK2-aG-O9U" firstAttribute="trailing" secondItem="KHj-09-KQK" secondAttribute="trailingMargin" id="wEZ-sB-keO"/>
                             <constraint firstItem="WdO-vX-N42" firstAttribute="leading" secondItem="KHj-09-KQK" secondAttribute="leadingMargin" id="ysr-RM-4fP"/>
                         </constraints>
                     </view>
@@ -261,7 +265,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifI-Cy-dcZ">
                                 <rect key="frame" x="24" y="50" width="87" height="54"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686274509803" green="0.5490196078431373" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="84X-7j-GWZ"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="GnB-zu-Upb"/>
@@ -277,7 +281,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9Q-jg-ph2">
                                 <rect key="frame" x="369" y="50" width="87" height="54"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686274509803" green="0.5490196078431373" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="3BT-cg-DwS"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="f1H-Rc-svd"/>
@@ -297,6 +301,7 @@
                                     <constraint firstAttribute="height" constant="30" id="22W-44-CTa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="‹">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
@@ -309,7 +314,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4P-MN-HV2">
                                         <rect key="frame" x="0.0" y="0.0" width="87" height="54"/>
-                                        <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.039215686274509803" green="0.5490196078431373" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="K2b-M4-Goq"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="cCA-zR-acD"/>
@@ -325,7 +330,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ri6-bq-hhC">
                                         <rect key="frame" x="115" y="0.0" width="87" height="54"/>
-                                        <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.039215686274509803" green="0.5490196078431373" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="Bpm-Cy-HBj"/>
                                             <constraint firstAttribute="width" constant="87" id="aIC-Ww-dU0"/>
@@ -351,8 +356,9 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9s-hH-H5B">
                                 <rect key="frame" x="389" y="270" width="71" height="30"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="Descargar">
-                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -406,7 +412,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMR-6I-hPr">
                                 <rect key="frame" x="24" y="50" width="87" height="54"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686270000001" green="0.54901960780000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="6Bn-TO-4a6"/>
                                     <constraint firstAttribute="width" constant="87" id="Mg1-Bw-M3j"/>
@@ -422,7 +428,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p43-To-Gfb">
                                 <rect key="frame" x="369" y="50" width="87" height="54"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686270000001" green="0.54901960780000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="ED6-Jp-6wh"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="VZZ-kx-7Dn"/>
@@ -442,6 +448,7 @@
                                     <constraint firstAttribute="height" constant="30" id="OCE-so-ZQg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="‹">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
@@ -454,7 +461,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yr1-dq-Niy">
                                         <rect key="frame" x="0.0" y="0.0" width="87" height="54"/>
-                                        <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.039215686270000001" green="0.54901960780000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="Djc-bx-nQv"/>
                                             <constraint firstAttribute="height" constant="54" id="d5x-I7-MhD"/>
@@ -470,7 +477,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7z-7G-q0Q">
                                         <rect key="frame" x="115" y="0.0" width="87" height="54"/>
-                                        <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.039215686270000001" green="0.54901960780000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="8ah-Eb-LSE"/>
                                             <constraint firstAttribute="height" constant="54" id="GqE-b4-JmN"/>
@@ -496,8 +503,9 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsF-I3-3sy">
                                 <rect key="frame" x="389" y="270" width="71" height="30"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="Descargar">
-                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -555,7 +563,8 @@
                                     <constraint firstAttribute="height" constant="45" id="HO8-zS-sq9"/>
                                     <constraint firstAttribute="width" constant="50" id="Z2e-AC-xnl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="‹">
                                     <color key="titleColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -663,6 +672,7 @@
                                     <constraint firstAttribute="height" constant="30" id="EPd-Le-bBT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="‹">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
@@ -672,7 +682,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9E-Jw-4P8">
                                 <rect key="frame" x="387" y="50" width="87" height="54"/>
-                                <color key="backgroundColor" red="0.035294117649999998" green="0.68235294120000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.039215686270000001" green="0.54901960780000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="X4B-xK-fqn"/>
                                     <constraint firstAttribute="width" constant="87" id="zPM-Rb-wIm"/>
@@ -686,8 +696,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kah-Mn-0Qu">
                                 <rect key="frame" x="389" y="270" width="71" height="30"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="Descargar">
-                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -781,6 +792,7 @@
                                     <constraint firstAttribute="height" constant="30" id="Mc8-hl-H3b"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="‹">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
@@ -835,8 +847,9 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEx-eg-B1b">
                                 <rect key="frame" x="389" y="270" width="71" height="30"/>
+                                <size key="titleShadowOffset" width="0.5" height="0.5"/>
                                 <state key="normal" title="Descargar">
-                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -879,8 +892,8 @@
         <image name="14" width="800" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yQ9-KJ-y3n"/>
         <segue reference="hjm-kJ-wDX"/>
+        <segue reference="yQ9-KJ-y3n"/>
         <segue reference="WEc-z0-UDb"/>
         <segue reference="wwX-Kb-kaV"/>
     </inferredMetricsTieBreakers>
